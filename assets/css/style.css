@@ -1173,7 +1173,7 @@ input::-ms-input-placeholder {
 }
 button.btn-md:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus{
     outline:none;
-    color:#ff7200;
+    color:rgb(224, 224, 77);
 }
 button.btn-md {
     text-align: center;
@@ -1185,14 +1185,14 @@ button.btn-md {
     margin-top: 0px;
     background-color: transparent;
     transition: .5s;
-    border: 0px solid #ff7200;
+    border: 0px solid rgb(224, 224, 77);
     font-family: 'montserratregular';
 }
 button.btn-md:hover {
     background-color: transparent;
-    color: #ff7200;
+    color: rgb(224, 224, 77);
     text-decoration: none;
-    border: 0px solid #f4720a;
+    border: 0px solid rgb(224, 224, 77);
 }
 .portfolio .toolbar{
     margin-bottom:50px;
@@ -1278,7 +1278,7 @@ button.btn-md:hover {
     background: transparent;
 }
 .grid_item_overlay a:hover i{
-    color:#ff7200;
+    color:rgb(224, 224, 77);
     background: #fff;
 }
 
@@ -1515,7 +1515,7 @@ button.btn-md:hover {
     line-height: 1.4rem;
 }
 .single_widget ul li a:hover{
-    color:#ff7200;
+    color:rgb(224, 224, 77);
 }
 
 .footer_logo{
@@ -1639,7 +1639,7 @@ button.btn-md:hover {
 }
 
 .scrollup:hover {
-    background: #ff7200;
+    background: rgb(224, 224, 77);
     opacity: 1;
 }
 
