@@ -223,12 +223,14 @@ jQuery(document).ready(function ($) {
 
 
 $(document).on("scroll", function () {
-    if ($(document).scrollTop() > 120) {
+    if ($(document).scrollTop() > 80) {
         $("nav").addClass("small");
         $(".main_menu_bg").addClass("nav_top");
+        $('#logo').attr('src', 'assets/images/logo-dark.png')
     } else {
         $("nav").removeClass("small");
         $(".main_menu_bg").removeClass("nav_top");
+        $('#logo').attr('src', 'assets/images/logo-light.png')
     }
 });
 
